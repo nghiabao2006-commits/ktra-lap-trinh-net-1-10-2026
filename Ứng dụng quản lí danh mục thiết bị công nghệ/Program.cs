@@ -8,9 +8,6 @@ namespace Ứng_dụng_quản_lí_danh_mục_thiết_bị_công_nghệ
 {
     internal static class Program
     {
-        /// <summary>
-        /// The main entry point for the application.
-        /// </summary>
         [STAThread]
         static void Main()
         {
