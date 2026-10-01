@@ -1,4 +1,4 @@
-﻿// XeMay.cs
+﻿
 namespace AutoSpeed;
 
 public class XeMay : PhuongTien
