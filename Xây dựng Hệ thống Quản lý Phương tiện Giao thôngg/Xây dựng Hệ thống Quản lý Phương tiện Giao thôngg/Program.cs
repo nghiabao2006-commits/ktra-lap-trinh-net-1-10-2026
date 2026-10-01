@@ -1,8 +1,8 @@
-﻿// Program.cs
+﻿
 using AutoSpeed;
 
 Console.OutputEncoding = System.Text.Encoding.UTF8;
-Console.InputEncoding = System.Text.Encoding.UTF8;   // để gõ được tiếng Việt có dấu
+Console.InputEncoding = System.Text.Encoding.UTF8;   
 
 var ql = new QuanLyPhuongTien();
 
@@ -48,13 +48,10 @@ while (true)
     }
     catch (ArgumentException ex)
     {
-        // Bắt lỗi validation: đây chính là chỗ hiện kết quả của TC01
         Console.WriteLine($"[LỖI] {ex.Message}");
         Console.WriteLine("Không tạo được đối tượng. Vui lòng thử lại.");
     }
 }
-
-// ================= Các hàm hỗ trợ nhập liệu =================
 
 static void NhapOTo(QuanLyPhuongTien ql)
 {
