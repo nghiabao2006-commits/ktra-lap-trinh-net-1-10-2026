@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "Xây dựng Hệ thống Quản lý Phương tiện Giao thôngg/1.0.0": {
+        "runtime": {
+          "Xây dựng Hệ thống Quản lý Phương tiện Giao thôngg.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Xây dựng Hệ thống Quản lý Phương tiện Giao thôngg/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
