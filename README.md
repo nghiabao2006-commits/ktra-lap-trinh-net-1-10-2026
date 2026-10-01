@@ -1,5 +1,5 @@
 Họ tên: Hoàng Nghĩa Bảo 
-MSV: 24810320282
+MSV: 24810320182
 Lớp: D19QTANM1
 Trường: Đại học Điện Lực
 
