@@ -22,7 +22,6 @@ namespace Ứng_dụng_quản_lí_danh_mục_thiết_bị_công_nghệ
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            // setup categories
             var categories = new List<CategoryItem>
             {
                 new CategoryItem("Điện thoại","Điện thoại"),
@@ -33,11 +32,9 @@ namespace Ứng_dụng_quản_lí_danh_mục_thiết_bị_công_nghệ
             cboCategory.ValueMember = "Value";
             cboCategory.DataSource = categories;
 
-            // setup data binding
             bs.DataSource = products;
             dgvProducts.DataSource = bs;
 
-            // define columns
             dgvProducts.Columns.Clear();
             dgvProducts.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Mã SP", DataPropertyName = "ProductId", Width = 80 });
             dgvProducts.Columns.Add(new DataGridViewTextBoxColumn { HeaderText = "Tên SP", DataPropertyName = "ProductName", Width = 200 });
@@ -139,7 +136,7 @@ namespace Ứng_dụng_quản_lí_danh_mục_thiết_bị_công_nghệ
                 sel.UnitPrice = decimal.Parse(txtUnitPrice.Text);
                 sel.Quantity = int.Parse(txtQuantity.Text);
                 sel.ImagePath = currentImagePath;
-                // notify list changed
+                
                 bs.ResetCurrentItem();
                 UpdateStatus();
             }
